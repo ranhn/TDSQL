@@ -1,7 +1,9 @@
 # TDSQL
 腾讯TDSQL接口未授权访问信息泄露
-漏洞地址：http://tdsql-xxxxxxx.com/tdsqlpcloud/index.php/api/install/get_db_info
-漏洞描述：tdsql赤兔管理平台，api接口存在未授权返回数据库明文配置信息。
+漏洞地址：
+http://tdsql-xxxxxxx.com/tdsqlpcloud/index.php/api/install/get_db_info
+漏洞描述：
+tdsql赤兔管理平台，api接口存在未授权返回数据库明文配置信息。
 漏洞详情：
 代码审计
 <img width="919" alt="企业微信截图_e145d467-1516-4bc4-b803-ef885051b2f8(1)" src="https://github.com/ranhn/TDSQL/assets/107679328/61bdb224-fdb1-460d-88ce-28e8368fd7ce">
@@ -14,6 +16,8 @@
 ![企业微信截图_16939844855432](https://github.com/ranhn/TDSQL/assets/107679328/82013cb8-6983-4b72-ad55-ad70a415c793)
 
 修复建议：
+
+
 class Install extends API_Controller{
 public function __construct(){
 parent::__construct(false); --修改为true
@@ -21,7 +25,7 @@ parent::__construct(false); --修改为true
 /**
 * 获取数据库访问信息
 *
-* @author kevenchen
+* @author ranhainan
 * @type GET/POST
 *
 * @return string ip 数据库IP

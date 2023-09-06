@@ -35,7 +35,7 @@ parent::__construct(false); --修改为true
 /**
 * 获取数据库访问信息
 *
-* @author ranhainan
+* @author kevenchen
 * @type GET/POST
 *
 * @return string ip 数据库IP

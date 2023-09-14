@@ -1,5 +1,6 @@
 # tdsql
 腾讯TDSQL接口未授权访问信息泄露
+CVE-2023-42387
 
 漏洞地址：
 http://tdsql-xxxxxxx.com/tdsqlpcloud/index.php/api/install/get_db_info

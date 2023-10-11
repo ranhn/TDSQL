@@ -16,7 +16,8 @@ tdsql赤兔管理平台，api接口存在未授权返回数据库明文配置信
 1，访问上述接口。
 ![image](https://github.com/ranhn/TDSQL/assets/107679328/1ab3cadb-497a-4546-a707-8f3c2b8ff863)
 2，得到明文账号密码，登录数据库。
-![image](https://github.com/ranhn/TDSQL/assets/107679328/7e234dea-a837-4594-b1d3-7941eab50d29)
+![image](https://github.com/ranhn/TDSQL/assets/107679328/78899f53-558d-4eff-ac75-b8aed08b27e6)
+
 
 漏洞版本：
 赤免管理台 V1.8.9-1 bdffe65
